@@ -1,0 +1,21 @@
+.id-card{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 12px;
+    padding: 12px;
+    width: 500px;
+}
+
+.id-card .info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.id-card .image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
